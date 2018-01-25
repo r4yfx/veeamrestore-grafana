@@ -9,6 +9,7 @@ The url is here https://github.com/jorgedlcruz/veeam_grafana
 # Prerequisite
 You will require the following in order to make this script work 
 * Grafana
+  * BT PeakReport Apps
 * Telegraf 1.5
 * PowerShell v3 
 * Windows 2012 R2
