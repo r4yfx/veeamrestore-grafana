@@ -11,14 +11,14 @@ The installation of the script is very easy;
 * Place this file in the desired location in your c:\ drive
 * Add the next to your telegraf.conf and restart the telegraf service. Mind the Script path, also if your environment is quite large, you need to tune the interval and timeout and set them higher times 600s for example
 
-```
+,,,
  [[inputs.exec]]
   commands = ["powershell C:/veeam-restorepoints.ps1"]
   name_override = "veeamrestore"
   interval = "60s"
   timeout = "60s"
   data_format = "influx"
-```
+,,,
 
 * There is no JSON dashboard available for this, but if you need any assistance please feel free to get in touch.
 * Enjoy! :) 
